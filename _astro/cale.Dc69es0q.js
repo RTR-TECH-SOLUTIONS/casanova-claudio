@@ -1,0 +1,1 @@
+var e=`/casanova-claudio`.replace(/\/$/,``),t=t=>t.startsWith(`/`)&&!t.startsWith(`//`)?`${e}${t}`:t;export{t};
