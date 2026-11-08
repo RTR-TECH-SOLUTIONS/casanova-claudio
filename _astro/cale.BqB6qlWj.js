@@ -1,0 +1,1 @@
+var e=new Intl.NumberFormat(`ro-RO`,{minimumFractionDigits:2,maximumFractionDigits:2}),t=t=>`${e.format(t)} lei`,n=`/casanova-claudio`.replace(/\/$/,``),r=e=>e.startsWith(`/`)&&!e.startsWith(`//`)?`${n}${e}`:e;export{t as n,r as t};
